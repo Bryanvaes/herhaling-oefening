@@ -1,10 +1,57 @@
 html,body {
-    padding-top: 50px;
+    padding-top: 31px;
     height: 800px;
 }
 .navbar {
     background: linear-gradient(0deg, rgba(34,195,188,1) 0%, rgba(102,167,191,1) 25%, rgba(126,142,190,1) 50%, rgba(87,87,192,1) 75%, rgba(18,25,96,1) 100%);
 }
 .top-nav-collapse {
-    background: linear-gradient(0deg, rgba(57,201,137,1) 0%, rgba(102,191,187,1) 25%, rgba(47,111,145,1) 50%, rgba(48,90,150,1) 75%, rgba(1,47,124,1) 100%);
+    background: linear-gradient(0deg, rgba(169,194,183,1) 0%, rgba(96,176,172,1) 25%, rgba(77,58,173,1) 50%, rgba(101,40,158,1) 75%, rgba(84,20,110,1) 100%);
+    
+
+}
+.card {
+    box-shadow: none;
+}
+.updatetime {
+    font-family: "Forma DJR Micro",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.iconetime {
+    font-size: 12px;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: inline-block;
+    
+}
+.vrt-teaser__video-indicator {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 2em;
+    height: 2em;
+    background: #fff;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    transition: background .2s;
+    border-top-right-radius: 95%;
+}
+.is-img-video svg {
+    -webkit-transition: fill .2s;
+    -o-transition: fill .2s;
+    transition: fill .2s;
+    position: absolute;
+    bottom: 1px;
+    left: -1px;
+    width: 65%;
+    height: 65%;
+    margin-top: 2px;
+    fill: #5dfc71;
+}
+.card-text {
+    font-family: 'Roboto Mono', monospace;
 }
