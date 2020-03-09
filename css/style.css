@@ -1,1 +1,10 @@
-
+html,body {
+    padding-top: 50px;
+    height: 800px;
+}
+.navbar {
+    background: linear-gradient(0deg, rgba(34,195,188,1) 0%, rgba(102,167,191,1) 25%, rgba(126,142,190,1) 50%, rgba(87,87,192,1) 75%, rgba(18,25,96,1) 100%);
+}
+.top-nav-collapse {
+    background: linear-gradient(0deg, rgba(57,201,137,1) 0%, rgba(102,191,187,1) 25%, rgba(47,111,145,1) 50%, rgba(48,90,150,1) 75%, rgba(1,47,124,1) 100%);
+}
