@@ -1,0 +1,38 @@
+html,body {
+    background-color: rgba(230, 222, 222, 1);
+    height: 1000px;
+}
+.lignehorizontale {  
+    background-color: black;
+    padding: 1px;
+    border: black;
+}
+.datum,#mijngegevens,#btwnummer,#datum ,#mylandcode ,#chooselandcode ,#btwland ,#header,#showbtw {
+    width: auto;
+    display: table;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+    
+}
+.datum {
+    border: 2px solid black;
+    padding: 6px;
+    transform: translate(-50%) rotate(-3deg);
+}
+.customveld {
+    width: auto;
+    transform: translate(50%) translateY(10%)
+}
+.modalheader {
+    transform: translate(30%);
+    font-weight: 400;
+}
+
+.mycolor {
+    background-color: chartreuse;
+}
+.top-nav-collapse {
+    background-color: blueviolet;
+
+}
